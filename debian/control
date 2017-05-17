@@ -1,4 +1,4 @@
-Source: szn-libgeometry
+Source: szn-libmapbox-geometry
 Maintainer: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
 Section: misc
 Priority: optional
@@ -6,7 +6,7 @@ Standards-Version: 3.9.2
 Build-Depends:
     debhelper (>= 9)
 
-Package: szn-libgeometry-dev
+Package: szn-libmapbox-geometry-dev
 Section: libdevel
 Architecture: amd64
 Depends: ${misc:Depends}
