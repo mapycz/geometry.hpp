@@ -13,4 +13,4 @@ install:
 	install -m 0644 -o root -g root include/mapbox/geometry/* $(DESTDIR)/usr/include/mapbox/geometry
 
 clean:
-	rm test
+	rm -f test
